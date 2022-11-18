@@ -1,0 +1,67 @@
+html,body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+
+}
+body{
+background-image: url(./images/kla.png); 
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.links{
+    color: yellow;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.8;
+   border-radius: 19%;
+    
+}
+
+.links ul li a{ 
+    display: block;
+    padding: 20px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 20px;
+    color: yellow;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.8;
+   border-radius: 19%;
+    }
+
+
+
+.links ul li a:hover{ 
+    
+background-color:rgba(201, 199, 84, 0.859);
+}
+
+.links ul{
+list-style: none;
+text-decoration: solid;
+}
+
+.access{
+float: right;
+margin: 10px;
+margin-top: auto;
+padding: 5;
+}
+
+.h4{ 
+margin-top: -10px;
+text-align: center;
+font-size: small;
+
+
+}
+
+
+
+
+
