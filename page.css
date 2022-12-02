@@ -1,67 +1,126 @@
-html,body {
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.8;
-
-}
-body{
-background-image: url(./images/kla.png); 
-background-repeat: no-repeat;
-background-size: cover;
-
-
-
-}
-.links{
-    color: yellow;
-    text-decoration: none;
-    background-color: black;
-    opacity: 0.8;
-   border-radius: 19%;
-    
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-.links ul li a{ 
-    display: block;
-    padding: 20px;
-    margin-top: 5px;
-    float: left;
-    margin-right: 20px;
-    color: yellow;
-    text-decoration: none;
-    background-color: black;
-    opacity: 0.8;
-   border-radius: 19%;
-    }
-
-
-
-.links ul li a:hover{ 
-    
-background-color:rgba(201, 199, 84, 0.859);
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.8;
 }
 
-.links ul{
-list-style: none;
-text-decoration: solid;
+body {
+  background-image: url("./images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.access{
-float: right;
-margin: 10px;
-margin-top: auto;
-padding: 5;
+.links {
+  color: yellow;
+  text-decoration: none;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 19%;
 }
 
-.h4{ 
-margin-top: -10px;
-text-align: center;
-font-size: small;
+.links ul li a {
+  display: block;
+  padding: 20px;
+  margin-top: 5px;
+  float: left;
+  margin-right: 20px;
+  color: yellow;
+  text-decoration: none;
+  background-color: rgb(11, 1, 1);
 
-
+  border-radius: 19%;
 }
 
+.links ul li a:hover {
+  background-color: rgb(47, 47, 45);
+}
 
+.links ul {
+  list-style: none;
+  text-decoration: solid;
+}
 
+.access {
+  float: right;
+  margin: 10px;
 
+  padding: 5;
+  border-radius: 40px;
+}
 
+.h4 {
+  margin-top: -10px;
+  text-align: center;
+  font-size: small;
+}
+
+.forgot {
+  float: right;
+  margin-top: -20px;
+  display: flex;
+  font-size: small;
+}
+
+#navigation ul {
+  padding-right: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 650px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 5px solid #a5a2a2;
+  border-radius: 20px;
+  box-shadow: -1px 5px 15px rgb(111, 109, 109);
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 20s infinite;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes slide {
+  10% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(-300%);
+  }
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+}
